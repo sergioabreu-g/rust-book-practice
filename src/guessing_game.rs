@@ -1,6 +1,7 @@
 use std::{io::{self, Write}, cmp::Ordering};
 use rand::Rng;
 
+#[allow(dead_code)]
 pub fn play_game() {
     let number = rand::thread_rng().gen_range(1..=100);
 
